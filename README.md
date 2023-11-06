@@ -3,6 +3,7 @@
 It's based on Joachim Johansen's thesis on phage genomics. The thesis has been 
 stripped and could further be made less specific to the examples from the thesis.
 
+View the [original thesis](thesis_original.pdf) or the one created with [this template](thesis_template_overleaf.pdf)
 
 ## How to use
 
@@ -16,3 +17,4 @@ The general workflow of thesis writing was:
 2. Export the thesis when ready (either by copy-pasting or using pandoc) to overleaf
 2. Export paperpile references from as a bibtex file from the google doc
 3. Add back references, typeset and polish everything in overleaf
+4. Optional: Combine the pdf created with overleaf with the frontpage created elsewhere
