@@ -1,13 +1,11 @@
 # Thesis template
 
-It's based on Joachim Johansen's thesis on phage genomics. The thesis has been 
+It's based on Joachim Johansen's thesis on phage genomics. The thesis has been
 stripped and could further be made less specific to the examples from the thesis.
-
-View the [original thesis](thesis_original.pdf) or the one created with [this template](thesis_template_overleaf.pdf)
 
 ## How to use
 
-You can create the template from the repository using overleaf, see 
+You can create the template from the repository using overleaf, see
 instruction on [how to create an overleaf project from an exisiting git repository](https://www.overleaf.com/learn/how-to/Git_integration#Creating_an_Overleaf_project_from_an_existing_Git_repository).
 
 The general workflow of thesis writing was:
