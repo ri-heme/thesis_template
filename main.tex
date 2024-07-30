@@ -3,15 +3,15 @@
 
 
 
-%%% Packages 
+%%% Packages
 \usepackage[utf8]{inputenc}
 \usepackage[danish,english]{babel}
-\usepackage{pdfpages}%include pdfs
+\usepackage{pdfpages}% include pdfs
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{float}
 \usepackage{tikz}
-\usepackage{blindtext}% dummy text
+\usepackage{blindtext}% placeholder text
 \usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage[font={small}]{caption}
@@ -24,7 +24,7 @@
 
 \usepackage{listings}
 \usepackage{xcolor}
-%% Colors 
+%% Colors
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{dtured}{rgb}{0.60, 0.00, 0.00}
 \colorlet{thecolor}{dtured!100!}
@@ -32,24 +32,24 @@
 \definecolor{thecaptionclr}{gray}{0.6}
 \definecolor{gray20}{gray}{0.20}
 \definecolor{gray40}{gray}{0.40}
- 
+
 \lstdefinestyle{mystyle}{
     keywordstyle=\color{magenta},
     numberstyle=\tiny\color{codegray},
     stringstyle=\color{codepurple},
     basicstyle=\ttfamily\footnotesize,
-    breakatwhitespace=true,         
-    breaklines=true,                 
+    breakatwhitespace=true,
+    breaklines=true,
     captionpos=b,
-    keepspaces=true,                 
-    numbers=left,                    
-    numbersep=5pt,                  
-    showspaces=false,                
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
     showstringspaces=false,
-    showtabs=false,                  
+    showtabs=false,
     tabsize=2
 }
- 
+
 \lstset{style=mystyle}
 
 \pagenumbering{roman}
@@ -65,7 +65,7 @@
 \chapterstyle{tandh}
 
 % adjust caption formatting (memoir)
-\captionnamefont{\bfseries} 
+\captionnamefont{\bfseries}
 \captiondelim{. }
 \changecaptionwidth
 \captionwidth{5in}
@@ -76,13 +76,13 @@
 \usepackage{graphicx}
 %running fraction with slash - requires math mode.
 \newcommand*\rfrac[2]{{}^{#1}\!/_{#2}}
-\newcommand{\fig}[2]{\textbf{Figure~\ref{#1}{#2}}} 
-\newcommand{\tab}[2]{\textbf{Table~\ref{#1}{#2}}} 
+\newcommand{\fig}[2]{\textbf{Figure~\ref{#1}{#2}}}
+\newcommand{\tab}[2]{\textbf{Table~\ref{#1}{#2}}}
 \newcommand{\tabb}{\hspace*{2em}}
 \newcommand{\sub}[1]{\mbox{(\textbf{#1})}} % formatting for subfigure label within a caption
 \newcommand{\prog}[1]{\texttt{#1}}
 
-\newcommand{\fixme}[1]{\textbf{\underline{#1}}} 
+\newcommand{\fixme}[1]{\textbf{\underline{#1}}}
 %%%Font size on chapters, sections and subsections
 \newcommand*{\justifyheading}{\raggedleft}
 
@@ -112,7 +112,7 @@
 \renewcommand*\contentsname{Table of contents}
 \tableofcontents*
 
-%% Font stuff 
+%% Font stuff
 \include{front/summary_english}
 \include{front/summary_danish}
 
@@ -155,11 +155,11 @@
 \endgroup
 
 \begingroup
-\chapter{Methods} 
+\chapter{Methods}
 \include{methods/ML}
 \endgroup
 
-%%% Introduction of each Project 
+%%% Introduction of each Project
 \begingroup
 \chapter{Research objectives}
 \include{middle/Research_objectives}
@@ -168,7 +168,7 @@
 \include{middle/description_research_projects}
 \endgroup
 
-%%% Summary and discussion of results 
+%%% Summary and discussion of results
 \begingroup
 \chapter{Summary of results and discussion}
 \include{middle/2_phamb_results}
@@ -192,7 +192,7 @@
 \beginsupplement
 
 
-%%%%%%% Papers 
+%%%%%%% Papers
 
 \begingroup
 
@@ -226,7 +226,7 @@
 \endgroup
 
 
-% Giv kapitel nummer. 
+% Giv kapitel nummer.
 \printbibliography[title={References}]
 
 
